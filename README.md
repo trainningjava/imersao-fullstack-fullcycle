@@ -17,12 +17,14 @@ Uma transação não pode ser perdida mesmo que: o CodePix esteja fora do ar
 Uma transação não pode ser perdida mesmo que: o Bando de destino esteja fora do ar
 
 Sobre os bancos
+
 O banco será um microserviço com funções limitadas a cadastro de contas e chaves Pix, bem como transferência de valores.
 Utilizaremos a mesma aplicação para simularmos diversos bancos, mudando apenas cores, nome e código.
 Nest.js no backend.
 Nest.js como frontend.
 
 Sobre o CodePix
+
 O microserviço CodePix será responsável por intermediar as transferência bancárias
 Receberá a transação de transferência
 Encaminhará a transação para o banco de destino (Status: "pending")
@@ -34,6 +36,8 @@ Marca a transação como completa (Status: "completed")
 ## :package: Desafios
 
 - [desafios1](https://github.com/trainningjava/imersao-fullstack-fullcycle/tree/main/codepix)
+
+
 
 <p align="center">
 <img width="600" src="./public/assets/images/Maratona.gif?raw=true">
