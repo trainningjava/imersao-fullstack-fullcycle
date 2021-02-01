@@ -1,3 +1,9 @@
+node_modules/
+jspm_packages/
+/dist/
+/bkp/
 .pgdata
-.idea
 .env
+.idea
+*.cmd
+*.bat
