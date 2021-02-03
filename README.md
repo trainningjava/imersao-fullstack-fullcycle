@@ -36,16 +36,18 @@ Marca a transação como completa (Status: "completed")
 ## :package: Desafios
 
 - [desafios1](https://github.com/trainningjava/imersao-fullstack-fullcycle/tree/main/codepix)
-Nesse desafio você deverá montar seu ambiente de desenvolvimento com Docker utilizando o Dockerfile e docker-compose de nosso projeto prático.
 
-Crie uma struct de User com ID (uuid), Name e Email. Além disso, implemente uma função NewUser que seja capaz de validar que ID, Name e Email são obrigatórios, caso o contrário, ela deve retornar um erro.
+  Nesse desafio você deverá montar seu ambiente de desenvolvimento com Docker utilizando o Dockerfile e docker-compose de nosso projeto prático.
+
+  Crie uma struct de User com ID (uuid), Name e Email. Além disso, implemente uma função NewUser que seja capaz de validar que ID, Name e Email são obrigatórios, caso o contrário, ela deve retornar um erro.
 
 - [desafios2](https://github.com/trainningjava/imersao-fullstack-fullcycle/tree/main/codepix)
-Nesse desafio você deverá criar uma simples aplicação utilizando Golang que seja capaz de publicar uma mensagem em um tópico do Apache Kafka e também consumir mensagens desse tópico.
 
-Para deixar mais claro a separação das responsabilidades, crie uma pasta chamada producer e outra consumer. Em cada uma delas crie um arquivo main.go que será responsável por produzir e consumir as mensagens respectivamente
+  Nesse desafio você deverá criar uma simples aplicação utilizando Golang que seja capaz de publicar uma mensagem em um tópico do Apache Kafka e também consumir mensagens desse tópico.
 
-Utilize o mesmo Dockerfile e docker-compose.yaml utilizados no projeto do CodePix. Fique na liberdade para escolher o nome do tópico que será utilizado
+  Para deixar mais claro a separação das responsabilidades, crie uma pasta chamada producer e outra consumer. Em cada uma delas crie um arquivo main.go que será responsável por produzir e consumir as mensagens respectivamente
+
+  Utilize o mesmo Dockerfile e docker-compose.yaml utilizados no projeto do CodePix. Fique na liberdade para escolher o nome do tópico que será utilizado
 
 
 
