@@ -41,7 +41,7 @@ Marca a transação como completa (Status: "completed")
 
   Crie uma struct de User com ID (uuid), Name e Email. Além disso, implemente uma função NewUser que seja capaz de validar que ID, Name e Email são obrigatórios, caso o contrário, ela deve retornar um erro.
 
-- [desafios2](https://github.com/trainningjava/imersao-fullstack-fullcycle/tree/main/codepix)
+- [desafios2](https://github.com/trainningjava/imersao-fullstack-fullcycle/tree/main/desafios2)
 
   Nesse desafio você deverá criar uma simples aplicação utilizando Golang que seja capaz de publicar uma mensagem em um tópico do Apache Kafka e também consumir mensagens desse tópico.
 

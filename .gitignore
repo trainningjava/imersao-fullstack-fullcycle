@@ -3,7 +3,6 @@ jspm_packages/
 /dist/
 /bkp/
 .pgdata
-.env
 .idea
 *.cmd
 *.bat
